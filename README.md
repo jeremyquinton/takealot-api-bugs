@@ -15,7 +15,7 @@ Each example includes:
 
 ## Steps to Reproduce
 
-1. Add a valid API key to the request.
+1. Add a valid API key to the sample file fetch_returns.py
 2. Execute a request to the Returns endpoint with filters that yield more than 50 results (e.g. using `return_date__gte` / `return_date__lte` with `limit=50`).
 3. Capture the `continuation_token` from the initial response.
 4. Make a follow-up request using the `continuation_token`.
